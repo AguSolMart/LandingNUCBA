@@ -1,0 +1,151 @@
+@media (min-width: 1024px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0.2rem 0.8rem;
+    }
+
+    .nav-header {
+        display: block;
+        position: static;
+        width: auto;
+        background-color: transparent;
+        box-shadow: none;
+        padding: 4rem;
+    }
+
+    .nav-header ul {
+        flex-direction: row;
+        gap: 2rem;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+
+    .logo {
+        width: 150px;
+        height: auto;
+    }
+
+    .header-titulo {
+        font-size: 5rem;
+        font-weight: var(--bold);
+        color: var(--text);
+        margin-bottom: 1rem;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .menu-bars {
+        display: none;
+    }
+
+
+    #hero {
+        padding: 3rem 2rem;
+    }
+
+    .hero-info h1 {
+        font-size: var(--desktop-title);
+    }
+
+    .hero-info p {
+        font-size: 1.2rem;
+    }
+
+
+    #presentacion {
+        padding: 3rem 2rem;
+    }
+
+    .presentacion-info h2 {
+        font-size: 2rem;
+    }
+
+
+    #beneficios {
+        padding: 3rem 2rem;
+    }
+
+    .beneficios-items {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+
+    .beneficios-items article {
+        flex: 1;
+        margin: 0 1rem;
+        padding: 2rem;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        min-width: 400px;
+        max-width: 30%;
+        box-sizing: border-box;
+    }
+
+    .beneficios-items article h2 {
+        font-size: 2.5rem;
+
+    .beneficios-items article p {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+    #productos {
+        padding: 3rem 2rem; /
+    }
+
+    .productos-info{
+        width: 100%;
+    }
+
+    .productos-cont {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    #login {
+        padding: 3rem 2rem;
+    }
+
+
+    #contacto {
+        padding: 4rem 2rem;
+    }
+
+    .contacto-items {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    footer {
+        padding: 3rem 2rem;
+    }
+
+    .header-logo a {
+        font-size: 2rem;
+        font-weight: var(--bold);
+        color: var(--text);
+        margin-bottom: 1rem;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .nav-footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav-footer li {
+        margin: 0 1rem;
+    }
+
+    .rrss {
+        gap: 2rem;
+    }
+}
